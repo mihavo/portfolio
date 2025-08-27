@@ -1,6 +1,16 @@
 {
     "personal": [
         {
+            "title": "Nextfin",
+            "description": "A secure and scalable backend platform for e-banking operations.",
+            "github": "https://github.com/mihavo/nextfin"
+        },
+        {
+            "title": "Nextfin UI",
+            "description": " Web Client for the Nextfin Platform.",
+            "github": "https://github.com/mihavo/nextfin-ui"
+        },
+        {
             "title": "Ecommerce API",
             "description": "An Ecommerce API for handling the back-end logic of an e-shop. Provides support for user accounts, cart management, product handling, transactions and many more",
             "github": "https://github.com/mihavo/ecommerce-api"
