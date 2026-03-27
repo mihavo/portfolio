@@ -8,23 +8,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.7.4",
+    "@chakra-ui/react": "^2.8.0",
     "@emailjs/browser": "^3.4.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "animate.css": "^4.1.1",
     "caniuse-lite": "^1.0.30001673",
     "formik": "^2.2.9",
-    "framer-motion": "^5.6.0",
-    "next": "^12.3.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "framer-motion": "^10.0.0",
+    "next": "^15.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-icons": "^4.10.1",
     "react-indiana-drag-scroll": "^3.0.3-alpha",
     "typewriter-effect": "^2.18.2"
   },
   "devDependencies": {
     "eslint": "8.7.0",
-    "eslint-config-next": "12.0.8"
+    "eslint-config-next": "15.0.0"
+  },
+  "overrides": {
+    "minimatch": "^9.0.7"
   }
 }
