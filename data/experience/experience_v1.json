@@ -1,0 +1,20 @@
+[
+  {
+    "title": "IT Support Engineer · Hellenic Army",
+    "description": "During my military service in the Hellenic Army, I had the opportunity to serve as an IT Support Engineer, maintaining the existing IT infrastructure and providing technical assistance. I was responsible for overseeing the smooth functioning of servers and VMs as well as ensuring the security protocols and stability of the underlying network architecture.",
+    "time_range": "Mar 2023 - Aug 2023",
+    "link": "http://army.gr/en"
+  },
+  {
+    "title": "Back-End Software Engineer Intern · Quintessential SFT",
+    "description": "As a Backend Engineer at Quintessential, I was responsible for maintaining and adding new features to a Backend as a Service (BaaS) Platform that simplified the development of a self-hosted backend. I worked with TypeScript code using gRPC, GraphQL, WebSockets and tools such as Prometheus and Grafana.",
+    "time_range": "Feb 2022 - Aug 2022",
+    "link": "https://quintessential.gr"
+  },
+  {
+    "title": "Java Software Engineer · Agile Actors",
+    "description": "Collaborating as part of a Scrum team at Interamerican, responsible for the development of the core back-office insurance systems. Prototyped an instrumentation module for the platform, aimed at gaining performance insights and accelerating the troubleshooting process.",
+    "time_range": "Nov 2023 - Present",
+    "link": "https://www.agileactors.com/"
+  }
+]

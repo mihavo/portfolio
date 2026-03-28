@@ -1,6 +1,11 @@
 {
     "personal": [
         {
+            "title": "Beacon",
+            "description": " Real-Time Location Sharing & Geofencing Platform.",
+            "github": "https://github.com/mihavo/beacon"
+        },
+        {
             "title": "Nextfin",
             "description": "A secure and scalable backend platform for e-banking operations.",
             "github": "https://github.com/mihavo/nextfin"

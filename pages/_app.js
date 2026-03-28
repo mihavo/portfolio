@@ -1,94 +1,112 @@
-import { ChakraProvider, extendTheme, theme as base } from '@chakra-ui/react';
+import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import Script from 'next/script';
-
 import '../styles/globals.css';
 import Head from 'next/head';
 
+const config = {
+  initialColorMode: 'dark',
+  useSystemColorMode: false,
+};
+
 const theme = extendTheme({
+  config,
   fonts: {
-    body: `Manrope, ${base.fonts.body}`,
-    heading: `Manrope, ${base.fonts.body}`,
+    heading: `'Outfit', sans-serif`,
+    body: `'DM Sans', sans-serif`,
   },
   colors: {
-    purple: {
-      300: '#CCD6F6',
-    },
     blue: {
-      50: '#c2efff',
-      100: '#a6e7ff',
-      300: '#73D9FF',
-      500: '#33CDD7',
-      700: '#202752',
-      800: '#11152B',
-      900: '#0c0f1f',
+      50:  '#e8f4ff',
+      100: '#b8d8f5',
+      300: '#6aaed4',
+      500: '#3a9bb8',
+      700: '#111e35',
+      800: '#0c1524',
+      900: '#050b14',
     },
     green: {
       100: '#8fe3d1',
       300: '#57e6c8',
       500: '#04E8B9',
-      700: '#04d1a7',
+      700: '#03c9a0',
     },
-    primary: '#11152B',
-    secondary: '#04bfb3',
+    purple: {
+      300: '#c4d0f0',
+    },
+  },
+  semanticTokens: {
+    colors: {
+      // background & surfaces
+      primary: {
+        default: '#f0f4f8',
+        _dark: '#050b14',
+      },
+      surface: {
+        default: '#ffffff',
+        _dark: '#0c1524',
+      },
+      // accent — #1C4ED8 in light, lighter blue in dark
+      secondary: {
+        default: '#1C4ED8',
+        _dark: '#60a5fa',
+      },
+    },
   },
   components: {
     Heading: {
       baseStyle: {
-        color: 'secondary',
+        letterSpacing: '-0.03em',
+        fontFamily: `'Outfit', sans-serif`,
       },
       variants: {
         base: {
-          fontSize: ['36px', '38px', '48px'],
+          fontSize: ['28px', '36px', '44px'],
+          fontWeight: '800',
         },
       },
-      defaultProps: {
-        variant: 'base',
-      },
+      defaultProps: { variant: 'base' },
     },
     Text: {
       variants: {
         base: {
-          fontSize: ['16px', '18px', '20px'],
-          color: 'blue.500',
+          fontSize: ['15px', '16px', '17px'],
+          lineHeight: '1.85',
+          fontWeight: '300',
         },
       },
-      defaultProps: {
-        variant: 'base',
-      },
+      defaultProps: { variant: 'base' },
     },
     Link: {
       variants: {
         base: {
-          color: 'white',
-          borderRadius: '6px',
-          fontSize: '18px',
-          transition: 'all 0.2s ease-in-out',
-          _hover: {
-            textDecor: 'none',
-            color: 'secondary',
-          },
+          borderRadius: '4px',
+          transition: 'color 0.2s ease',
+          _hover: { textDecoration: 'none' },
         },
       },
-      defaultProps: {
-        variant: 'base',
-      },
+      defaultProps: { variant: 'base' },
     },
     Button: {
       baseStyle: {
-        color: 'white',
+        fontFamily: `'DM Sans', sans-serif`,
+        fontWeight: '500',
+        borderRadius: 'full',
+        letterSpacing: '0.01em',
+        transition: 'all 0.25s ease',
+        _focus: { boxShadow: 'none' },
       },
       variants: {
         base: {
-          outline: 'none',
-          border: '0',
-          bgColor: 'secondary',
+          bg: 'secondary',
           color: 'white',
-          fontSize: ['16px', '18px', '20px'],
+          _hover: {
+            bg: '#3b82f6',
+            transform: 'translateY(-2px)',
+            boxShadow: '0 8px 32px rgba(28,78,216,0.3)',
+          },
         },
       },
-      defaultProps: {
-        variant: 'base',
-      },
+      defaultProps: { variant: 'base' },
     },
   },
 });
@@ -108,11 +126,9 @@ const PortfolioApp = ({ Component, pageProps }) => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
-
-		  gtag('config', 'G-3M45E1NNH5');
+          gtag('config', 'G-3M45E1NNH5');
         `}
       </Script>
-
       <ChakraProvider theme={theme}>
         <Component {...pageProps} />
       </ChakraProvider>

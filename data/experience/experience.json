@@ -1,19 +1,13 @@
 [
   {
-    "title": "IT Support Engineer · Hellenic Army",
-    "description": "During my military service in the Hellenic Army, I had the opportunity to serve as an IT Support Engineer, maintaining the existing IT infrastructure and providing technical assistance. I was responsible for overseeing the smooth functioning of servers and VMs as well as ensuring the security protocols and stability of the underlying network architecture. This position also offered me the chance to effectively communicate complex technical concepts to non-technical personnel, resulting in informed decisions about utilizing IT resources efficiently.",
-    "time_range": "Mar 2023 - Aug 2023",
-    "link": "http://army.gr/en"
-  },
-  {
-    "title": "Back-End Software Engineer Intern · Quintessential SFT",
-    "description": "As a Backend Engineer at Quintessential, I was responsible for maintaining and adding new features to a Backend as a Service (BaaS) Platform that simplified the development of a self-hosted backend. I worked with TypeScript code using gRPC, GraphQL, WebSockets and tools such as Prometheus and Grafana. I was also involved in supporting, migrating and extending the PostgreSQL and MongoDB databases for the platform.",
+    "title": "Back-End Software Development Intern · Quintessential SFT",
+    "description": "Responsible for developing and implementing new features for a Backend as a Service (BaaS) platform, streamlining the development of self-hosted web applications. Utilized technologies such as gRPC, GraphQL, WebSockets, Prometheus and Grafana. Engineered solutions for data migration and extension of the PostgreSQL and MongoDB databases for the platform.",
     "time_range": "Feb 2022 - Aug 2022",
     "link": "https://quintessential.gr"
   },
   {
     "title": "Java Software Engineer · Agile Actors",
-    "description": "Collaborating as part of a Scrum team at Interamerican, responsible for the development of the core back-office insurance systems. Prototyped an instrumentation module for the platform, aimed at gaining performance insights and accelerating the troubleshooting process.",
+    "description": "Part of a Scrum team responsible for the development of the core back-office insurance systems at Interamerican. Actively contributed to the entire development lifecycle, including Sprint planning, testing, deployment, and maintenance. Prototyped an instrumentation module for the platform, aimed at gaining performance insights and accelerating production incidents resolution.",
     "time_range": "Nov 2023 - Present",
     "link": "https://www.agileactors.com/"
   }
