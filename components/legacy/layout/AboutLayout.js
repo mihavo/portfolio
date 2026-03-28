@@ -170,7 +170,7 @@ const AboutLayout = () => {
             </Link>
             <Link
               href={
-                'public/Resume.pdf'
+                '/resume.pdf'
               }
               target={'_blank'}
             >

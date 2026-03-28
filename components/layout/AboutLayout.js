@@ -176,7 +176,7 @@ const AboutLayout = () => {
               <Link href="https://github.com/mihavo" target="_blank" _hover={{ textDecoration: 'none' }}>
                 <Button {...ctaButton} leftIcon={<BsGithub />}>GitHub Profile</Button>
               </Link>
-              <Link href="public/Resume.pdf" target="_blank" _hover={{ textDecoration: 'none' }}>
+              <Link href="/resume.pdf" target="_blank" _hover={{ textDecoration: 'none' }}>
                 <Button {...ctaButton} leftIcon={<IoMdDocument />}>Download Resume</Button>
               </Link>
             </Flex>
