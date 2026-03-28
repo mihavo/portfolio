@@ -170,7 +170,7 @@ const AboutLayout = () => {
             </Link>
             <Link
               href={
-                'https://github.com/mihavo/resume/releases/latest/download/Resume.pdf'
+                'public/Resume.pdf'
               }
               target={'_blank'}
             >
