@@ -1,13 +1,13 @@
 import {
-  Button,
   Box,
+  Button,
   Flex,
   Heading,
   Link,
   Text,
   useColorModeValue,
 } from '@chakra-ui/react';
-import React from 'react';
+import { motion } from 'framer-motion';
 import {
   BiLogoJava, BiLogoJavascript, BiLogoNodejs,
 } from 'react-icons/bi';
@@ -15,13 +15,16 @@ import { BsGithub } from 'react-icons/bs';
 import { IoMdDocument } from 'react-icons/io';
 import { LuFileJson2, LuNetwork } from 'react-icons/lu';
 import {
-  SiApachemaven, SiApachekafka, SiDocker,
+  SiApachekafka,
+  SiApachemaven,
+  SiDocker,
   SiHibernate, SiIbm, SiKubernetes, SiMongodb,
-  SiMysql, SiOpentelemetry, SiPostgresql, SiPython,
-  SiPrometheus, SiRabbitmq, SiRedis, SiSpring,
+  SiMysql, SiOpentelemetry, SiPostgresql,
+  SiPrometheus,
+  SiPython,
+  SiRabbitmq, SiRedis, SiSpring,
 } from 'react-icons/si';
 import { VscTerminalBash } from 'react-icons/vsc';
-import { motion } from 'framer-motion';
 import TechnologyItem from '../sections/about/TechnologyItem';
 
 const fadeUp = {
@@ -173,7 +176,7 @@ const AboutLayout = () => {
               <Link href="https://github.com/mihavo" target="_blank" _hover={{ textDecoration: 'none' }}>
                 <Button {...ctaButton} leftIcon={<BsGithub />}>GitHub Profile</Button>
               </Link>
-              <Link href="/resume.pdf" target="_blank" _hover={{ textDecoration: 'none' }}>
+              <Link href="https://github.com/mihavo/resume/releases/latest/download/Resume.pdf" target="_blank" _hover={{ textDecoration: 'none' }}>
                 <Button {...ctaButton} leftIcon={<IoMdDocument />}>Download Resume</Button>
               </Link>
             </Flex>
