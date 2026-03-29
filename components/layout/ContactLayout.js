@@ -116,13 +116,6 @@ const ContactLayout = () => {
         </Flex>
       </motion.div>
 
-      <motion.div initial="hidden" whileInView="show" viewport={{ once: true, margin: '-40px' }} variants={fadeUp}>
-        <Box mt={16} textAlign="center">
-          <Text fontSize="13px" color={footerColor} fontWeight="300">
-            Built with Next.js
-          </Text>
-        </Box>
-      </motion.div>
     </Flex>
   );
 };

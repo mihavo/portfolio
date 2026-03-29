@@ -1,6 +1,7 @@
 import React from 'react';
-import { Box, Button, Flex, Heading, Link, Text, useColorModeValue } from '@chakra-ui/react';
+import { Box, Button, Flex, Link, Text, useColorModeValue } from '@chakra-ui/react';
 import Navbar from '../ui/Navbar';
+import AsciiTitle from '../ui/AsciiTitle';
 import { BsGithub } from 'react-icons/bs';
 import Typewriter from 'typewriter-effect';
 import 'animate.css';
@@ -68,18 +69,13 @@ const fadeColor    = useColorModeValue('#f0f4f8',                    '#050b14');
         pb="80px"
       >
 
-        <Heading
-          className="animate__animated animate__fadeInDown animate__slow gradient-text"
-          fontSize={['54px', '76px', '100px', '128px']}
-          lineHeight={0.9}
-          letterSpacing="-0.045em"
-          fontWeight="800"
-          mb={6}
+        <Box
+          w="100%"
+          h={['200px', '240px', '290px', '330px']}
+          mb={2}
         >
-          Michael
-          <br />
-          Volakis
-        </Heading>
+          <AsciiTitle lines={['Michael', 'Volakis']} />
+        </Box>
 
         <Link
           href="https://github.com/mihavo"
@@ -142,7 +138,7 @@ const fadeColor    = useColorModeValue('#f0f4f8',                    '#050b14');
             Software Engineer building reliable, well-crafted back-end systems.
           </Text>
 
-          <Flex gap={3} flexWrap="wrap">
+          <Flex gap={3} flexWrap="wrap" justifyContent="center">
             <Button
               as="a"
               href="#projects"
