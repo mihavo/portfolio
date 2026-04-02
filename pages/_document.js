@@ -17,7 +17,7 @@ class MyDocument extends Document {
             name="keywords"
             content="Michael,Volakis,DIT,Computer Science,Informatics,Athens,Portfolio,Developer,Web Developer,Web Apps"
           />
-          <meta name="robots" content="index, follow" />
+          <meta name="robots" content="noindex, nofollow" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="language" content="English" />
 
